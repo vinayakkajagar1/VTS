@@ -1,0 +1,66 @@
+#grid1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-auto-rows: 250px;
+    margin-bottom: 50px;
+}
+.tit{
+    background-color: grey;
+    border: black solid 1px;
+    padding: 10px;
+}
+#logo{
+    grid-column: 2/3;
+    grid-row: 1/3;
+}
+#para{
+    grid-column: 1/2;
+}
+#lgo{
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+#exp{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+#grid6{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+}
+.last{
+background-color: gray;
+padding: 10px;
+border: black solid 1px;
+}
+#pro{
+grid-column: 2/3;
+}
+#ment{
+grid-column: 2/3;
+
+}
+#web{
+grid-column: 2/3;
+
+}
+#social{
+grid-column: 2/3;
+
+}
+#lg{
+grid-column: 1/2;
+grid-row: 1/4;
+
+}
+#bt{
+grid-row: 4/5;
+}
+#grid7{
+display: grid;
+}
+.lt{
+background-color: grey;
+padding: 10px;
+border: black solid 1px;
+}

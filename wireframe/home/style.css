@@ -1,0 +1,123 @@
+.box1{
+    background-color: grey;
+    border: 1px solid black;
+    padding: 10px;
+}
+#image{
+    grid-row: 1/3;
+    grid-column: 2/3;
+}
+#grid1{
+    display: grid;
+    margin-bottom: 50px;
+    grid-template-columns: repeat(2,1fr);
+    grid-auto-rows: 250px;
+}
+#grid2{
+    display: grid;
+    grid-template-columns: repeat(4,1fr );
+    grid-auto-rows: 250px;
+    margin-bottom: 50px;
+}
+#joinus{
+    grid-column: 1/5;
+   max-height: 200px;
+   
+}
+#grid3{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    
+}
+.small-box{
+background-color: black;
+color: white;
+padding: 10px;
+}
+#grid4{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-auto-rows: 250px;
+    margin-bottom: 50px;
+    
+  
+
+}
+.tit{
+    background-color: grey;
+    border: 1px solid black;
+    padding: 10px;
+}
+ #m{
+       grid-column: 3/5;
+       grid-row: 1/4;
+}
+#p{
+    grid-column: 1/3;
+}
+#b{
+    grid-column: 1/3;
+} 
+#t{
+    grid-column:1/3 ;
+}
+#grid5{
+    display: grid;
+    grid-template-rows:1fr ;
+    margin-bottom: 50px;
+}
+.faq{
+    background-color: grey;
+    border: 1px solid black;
+    padding: 10px;
+}
+#st{
+    height: 200px;
+}
+#ts{
+    height: 75px;
+}
+#ma{
+    height: 40px;
+}
+#grid6{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.last{
+    background-color: gray;
+    padding: 10px;
+    border: black solid 1px;
+}
+ #pro{
+    grid-column: 2/3;
+ }
+ #ment{
+    grid-column: 2/3;
+
+ }
+ #web{
+    grid-column: 2/3;
+
+ }
+ #social{
+    grid-column: 2/3;
+
+ }
+ #lg{
+    grid-column: 1/2;
+    grid-row: 1/4;
+
+ }
+ #bt{
+    grid-row: 4/5;
+ }
+ #grid7{
+    display: grid;
+ }
+ .lt{
+    background-color: grey;
+    padding: 10px;
+    border: black solid 1px;
+ }

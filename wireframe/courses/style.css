@@ -1,0 +1,26 @@
+#grid1{
+    display: grid;
+    margin-bottom: 20px;
+}
+.one{
+    background-color: grey;
+padding: 10px;
+border: black solid 1px;
+height: 79px;
+}
+#grid2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: 250px;
+}
+.two{
+    background-color: grey;
+padding: 10px;
+border: black solid 1px;
+}
+.three{
+    background-color: black;
+    border: blue solid 1px;
+    padding: 10px;
+    color: brown;
+}
